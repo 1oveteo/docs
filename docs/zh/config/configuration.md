@@ -199,7 +199,7 @@ MySQL 5.x 和 8.x 也不一样。如果使用服务商提供的免费/收费数�
     "http_port": 5244,      // 监听的 http 端口,默认的 '5244',如果你想禁用 http,将其设置为 '-1'
     "https_port": -1,       // https 端口监听,默认的 '-1',如果你想启用 https,将其设置为非 '-1'
     "force_https": false,   // 是否强制使用 HTTPS 协议,如果设置为 true ,则用户只能通过 HTTPS 访问该网站
-    "cert_file": "data\\cert.crt",  // 证书文件路径
+    "cert_file": "data\\cert.pem",  // 证书文件路径
     "key_file": "data\\key.key",    // 证书密钥文件路径
     "unix_file": "",         // Unix 监听套接字文件路径,默认的空的,如果你想使用 Unix socket,将其设置为非空
     "unix_file_perm": ""     // Unix 监听套接字文件，设置为合适的权限
